@@ -155,7 +155,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src/main.cpp" />
+    <ClCompile Include="src/main.cc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
