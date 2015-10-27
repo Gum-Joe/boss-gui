@@ -7,7 +7,7 @@ using namespace std;
 
 namespace gui {
   std::string exec(const char* cmd) {
-      FILE* pipe = _popen(cmd, "r");
+      FILE* pipe = popen(cmd, "r");
       if (!pipe) return "ERROR";
       char buffer[128];
       std::string result = "";
@@ -15,7 +15,7 @@ namespace gui {
           if (fgets(buffer, 128, pipe) != NULL)
               result += buffer;
       }
-      _pclose(pipe);
+      pclose(pipe);
       return result;
   }
 } /* gui */

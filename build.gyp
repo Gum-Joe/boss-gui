@@ -7,9 +7,18 @@
         'include_dirs': [
           '..',
         ],
-        'sources': [
-          'src/main.cc',
-        ],
+        "conditions": [
+        ["OS=='win'", {
+          'sources': [
+            'src/main.cc',
+           ],
+        }],
+        ["OS=='linux'", {
+          'sources': [
+            'src/main-linux.cc',
+           ],
+        }]
+        ]
       },
     ],
   }
