@@ -1,11 +1,12 @@
 // Web-OS-gui.cpp : main project file.
 
-#include "stdafx.h"
+#include "stdafx.h";
+#include <string>
+#include <iostream>
 
-using namespace System;
-
-int main(array<System::String ^> ^args)
+int main(int argc, char* argv[])
 {
-    Console::WriteLine(L"Hello World");
+  const char *print = "Hello World";
+    printf(print);
     return 0;
 }
