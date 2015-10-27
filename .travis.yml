@@ -1,0 +1,8 @@
+language: cpp
+
+compiler:
+  - clang
+  - gcc
+
+install: echo No install script!
+script: make build
