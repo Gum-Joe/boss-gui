@@ -1,3 +1,2 @@
-# Web-OS-gui
-GUI for web-os - ran using click-to-run
-
+# Boss-gui
+GUI for Boss - ran using click-to-run

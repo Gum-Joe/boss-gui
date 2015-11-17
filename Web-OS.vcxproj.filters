@@ -26,6 +26,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.js"/>
+  </ItemGroup>
+  <ItemGroup>
     <ResourceCompile Include="src/app.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
